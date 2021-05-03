@@ -6,9 +6,18 @@
         error_log($es);
     }
    
-
     $appointment_date = $_POST['book-date'];
     $appointment_time = $_POST['book-time'];
+    
+    $parsedDate = date_create($appointment_date);
+
+    $dateToDisplay = date_format($parsedDate,'D : d M Y');
+
+    $parsedTime = date_create($appointment_time);
+    $timeToDisplay = date_format($parsedTime,"h:i a");
+   
+
+   
     $first_name = $_POST['firstname'];
     $last_name = $_POST['lastname'];
     $phone = $_POST['phone'];
@@ -156,8 +165,8 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="card card-body">
-                                    <h2><?php echo $appointment_date; ?></h2>
-                                    <h4><?php echo $appointment_time; ?></h4>
+                                    <h2><?php echo $dateToDisplay; ?></h2>
+                                    <h4><?php echo $timeToDisplay; ?></h4>
                                     <div title="Add to Calendar" class="addeventatc">
     Add to Calendar
       <span class="start"><?php echo $appointment_date.' '.$appointment_time; ?></span>

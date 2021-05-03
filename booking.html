@@ -118,18 +118,18 @@
                 <div class="col-md-8">
                     <form action="create-appointment.php" method="POST">
                         <div class="form-group">
-                            <label for="exampleInputEmail1"><h4 class="my-4">SELECT A DATE </h4></label>
-                            <input type="date" class="form-control" name="book-date" id="book-date" aria-describedby="bookDate">
+                            <label for="book-date"><h4 class="my-4">SELECT A DATE </h4></label>
+                            <input type="date" class="form-control" name="book-date" id="book-date" aria-describedby="bookDate" onChange="checkDate()">
                         </div>
                         <div class="form-group my-5">
-                            <label for="exampleInputEmail1"><h4 class="my-4">SELECT THE TIME </h4> </label>
+                            <label for="book-time"><h4 class="my-4">SELECT THE TIME </h4> </label>
                             <div class="row">
                                 <div class="col-4">
                                     <h5>Morning</h5>
                                     <hr>
                                     <div class="morning-session">
                                         <div class="form-check">
-                                            <input class="form-check-input" type="radio" name="book-time" id="book-time10" value="10:00" checked>
+                                            <input class="form-check-input" type="radio" name="book-time" id="book-time10" value="10:00">
                                             <label class="form-check-label" for="book-time10">
                                               10:00 am
                                             </label>
@@ -171,43 +171,43 @@
                                             </label>
                                         </div>
                                         <div class="form-check">
-                                            <input class="form-check-input" type="radio" name="book-time" id="book-time1" value="01:00">
+                                            <input class="form-check-input" type="radio" name="book-time" id="book-time1" value="13:00">
                                             <label class="form-check-label" for="book-time1">
                                               1:00 pm
                                             </label>
                                         </div>
                                         <div class="form-check">
-                                            <input class="form-check-input" type="radio" name="book-time" id="book-time1:30" value="01:30">
+                                            <input class="form-check-input" type="radio" name="book-time" id="book-time1:30" value="13:30">
                                             <label class="form-check-label" for="book-time1:30">
                                               1:30 pm
                                             </label>
                                         </div>
                                         <div class="form-check">
-                                            <input class="form-check-input" type="radio" name="book-time" id="book-time2" value="02:00">
+                                            <input class="form-check-input" type="radio" name="book-time" id="book-time2" value="14:00">
                                             <label class="form-check-label" for="book-time2">
                                               2:00 pm
                                             </label>
                                         </div>
                                         <div class="form-check">
-                                            <input class="form-check-input" type="radio" name="book-time" id="book-time2:30" value="02:30">
+                                            <input class="form-check-input" type="radio" name="book-time" id="book-time2:30" value="14:30">
                                             <label class="form-check-label" for="book-time2:30">
                                               2:30 pm
                                             </label>
                                         </div>
                                         <div class="form-check">
-                                            <input class="form-check-input" type="radio" name="book-time" id="book-time3" value="03:00">
+                                            <input class="form-check-input" type="radio" name="book-time" id="book-time3" value="15:00">
                                             <label class="form-check-label" for="book-time3">
                                               3:00 pm
                                             </label>
                                         </div>
                                         <div class="form-check">
-                                            <input class="form-check-input" type="radio" name="book-time" id="book-time3:30" value="03:30">
+                                            <input class="form-check-input" type="radio" name="book-time" id="book-time3:30" value="15:30">
                                             <label class="form-check-label" for="book-time3:30">
                                               3:30 pm
                                             </label>
                                         </div>
                                         <div class="form-check">
-                                            <input class="form-check-input" type="radio" name="book-time" id="book-time4" value="04:00">
+                                            <input class="form-check-input" type="radio" name="book-time" id="book-time4" value="16:00">
                                             <label class="form-check-label" for="book-time4">
                                               4:00 pm
                                             </label>
@@ -219,7 +219,7 @@
                                     <hr>
                                     <div class="evening-session">
                                         <div class="form-check ">
-                                            <input class="form-check-input " type="radio" name="book-time" id="book-time5" value="05:00">
+                                            <input class="form-check-input " type="radio" name="book-time" id="book-time5" value="17:00">
                                             <label class="form-check-label" for="exampleRadios1">
                                               5:00 pm
                                             </label>
@@ -366,7 +366,9 @@
   <script src="assets/vendor/aos/aos.js"></script>
 
   <!-- Template Main JS File -->
+  <script src="assets/js/checkDateTime.js"></script>
   <script src="assets/js/main.js"></script>
+
 
 </body>
 
