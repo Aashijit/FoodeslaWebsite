@@ -48,8 +48,8 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/image/favicon.png" rel="icon">
-  <link href="assets/image/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/image/logo.jpg" rel="icon">
+  <link href="assets/image/logo.jpg" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -65,15 +65,18 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: Flexor - v2.4.1
-  * Template URL: https://bootstrapmade.com/flexor-free-multipurpose-bootstrap-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 
   <script type="text/javascript" src="https://addevent.com/libs/atc/1.6.1/atc.min.js" async defer></script>
 
+  <style>
+     body {
+      background-color: #fff;
+    }
+    #main {
+      color: black;
+
+    }
+  </style>
 
 </head>
 
@@ -100,10 +103,15 @@
   <header id="header">
     <div class="container d-flex">
 
-      <div class="logo mr-auto">
-        <h1 class="text-light"><a href="index.html"><span>Foodesla</span></a></h1>
+      <div class="logo">
+        <!-- <h1 class="text-light"><a href="index.html"><span>Foodesla</span></a></h1> -->
         <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+        <a href="index.html"><img src="assets/image/logo.jpg" alt="" class="img-fluid"></a>
+
+      </div>
+      <div class="ml-2 mr-auto text-left">
+        <h4><a href="index.html"> FOODESLA</a></h3>
+        <small class="pb-4">Helping you make the right move</small>
       </div>
 
       <nav class="nav-menu d-none d-lg-block">
@@ -146,7 +154,7 @@
     <section id="breadcrumbs" class="breadcrumbs">
       <div class="container">
         <ol>
-          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html" style="color: black;">Home</a></li>
           <li>Online Booking</li>
         </ol>
         <h2>Approval</h2>
@@ -203,78 +211,86 @@
   <!-- ======= Footer ======= -->
   <footer id="footer">
 
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
+    <div class="section-bg">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
 
-          <div class="col-lg-4 col-md-6 footer-contact">
-            <h3>Foodesla</h3>
-            <p>
-              ALindeberglia 36,  
-              1069 Oslo,
-              Norway <br><br>
-              <strong>Phone:</strong> +43 660 365 1996 <br>
-              <strong>Phone:</strong> +47 468 98 091 <br>
+            <div class="col-lg-4 col-md-6 footer-contact">
+              <h3>Foodesla</h3>
+              <p>
+                ALindeberglia 36,  
+                1069 Oslo,
+                Norway <br><br>
+                <strong>Phone:</strong> +43 660 365 1996 <br>
+                <strong>Phone:</strong> +47 468 98 091 <br>
 
-              <strong>Email:</strong> post@foodesla.com<br>
-            </p>
-          </div>
-
-          <div class="col-lg-4 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
-              <!-- <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li> -->
-            </ul>
-          </div>
-
-          <!-- <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-            </ul>
-          </div> -->
-
-          <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>What to book more?</h4>
-            <p>Please contact us for further consultation.</p>
-            <div class="book">
-              <a href="book-services.html">Book now!</a>
+                <strong>Email:</strong> post@foodesla.com<br>
+              </p>
             </div>
-          </div>
 
+            <div class="col-lg-4 col-md-6 footer-links">
+              <h4>Useful Links</h4>
+              <ul>
+                <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
+                <!-- <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li> -->
+              </ul>
+            </div>
+
+            <!-- <div class="col-lg-3 col-md-6 footer-links">
+              <h4>Our Services</h4>
+              <ul>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+              </ul>
+            </div> -->
+
+            <div class="col-lg-4 col-md-6 footer-newsletter">
+              <h4>What to book more?</h4>
+              <p>Please contact us for further consultation.</p>
+              <div class="book">
+                <a href="book-services.html">Book now!</a>
+              </div>
+            </div>
+
+          </div>
         </div>
       </div>
     </div>
 
-    <div class="container d-lg-flex py-4">
+ 
+    
 
-      <div class="mr-lg-auto text-center text-lg-left">
-        <div class="copyright">
-          &copy; Copyright  <strong><span>Foodesla</span></strong>. All Rights Reserved 2020
+    
+    <div style=" color: rgba(255, 255, 255, 0.945);
+    background: #161616;">
+         <div class="container d-lg-flex py-4" >
+
+          <div class="mr-lg-auto text-center text-lg-left">
+            <div class="copyright">
+              &copy; Copyright  <strong><span>Foodesla</span></strong>. All Rights Reserved 2020
+            </div>
+            <div class="credits">
+              <!-- All the links in the footer should remain intact. -->
+              <!-- You can delete the links only if you purchased the pro version. -->
+              <!-- Licensing information: https://bootstrapmade.com/license/ -->
+              <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/flexor-free-multipurpose-bootstrap-template/ -->
+            </div>
+          </div>
+          <!-- <div class="social-links text-center text-lg-right pt-3 pt-lg-0">
+            <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+            <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+            <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+            <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+            <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          </div> -->
         </div>
-        <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/flexor-free-multipurpose-bootstrap-template/ -->
-          <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
-        </div>
-      </div>
-      <!-- <div class="social-links text-center text-lg-right pt-3 pt-lg-0">
-        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-      </div> -->
     </div>
   </footer><!-- End Footer -->
 
